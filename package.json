@@ -1,6 +1,6 @@
 {
   "name": "lorem-ipsum-react-native",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generates passages of lorem ipsum text suitable for use as placeholder copy in web pages, graphics, and more.",
   "author": "Alon Nativ <alon.nativ@gmail.com>",
   "license": "MIT/X11",

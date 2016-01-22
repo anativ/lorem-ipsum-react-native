@@ -1,33 +1,33 @@
-### lorem-ipsum.js
+### lorem-ipsum-react-native.js
 
-lorem-ipsum.js is a Node.js and Component.js module for generating passages of lorem ipsum text. Lorem ipsum text is commonly used as placeholder text in publishing, graphic design, and web development.
+lorem-ipsum-react-native.js is a Node.js and Component.js module for generating passages of lorem ipsum text. Lorem ipsum text is commonly used as placeholder text in publishing, graphic design, and web development.
 
 ### Using the Module (Node.js)
 
-Install the lorem-ipsum.js module to use the library in your server-side Node.js projects.
+Install the lorem-ipsum-react-native.js module to use the library in your server-side Node.js projects.
 
 ```bash
 cd ~/MyProject
-npm install lorem-ipsum
+npm install lorem-ipsum-react-native
 ```
 
-Require the lorem-ipsum.js module and use it to generate a passage of lorem ipsum text.
+Require the lorem-ipsum-react-native.js module and use it to generate a passage of lorem ipsum text.
 
 ```javascript
-var loremIpsum = require('lorem-ipsum')
+var loremIpsum = require('lorem-ipsum-react-native')
   , output     = loremIpsum();
 ```
 
 ### Using the Module (Component.js)
 
-Install the lorem-ipsum.js module to use the library client-side.
+Install the lorem-ipsum-react-native.js module to use the library client-side.
 
 ```bash
 cd ~/MyProject
 component install knicklabs/lorem-ipsum.js
 ```
 
-Require the lorem-ipsum.js module and use it to generate a passage of lorem ipsum text.
+Require the lorem-ipsum-react-native.js module and use it to generate a passage of lorem ipsum text.
 
 ```javascript
 var loremIpsum = require('knicklabs-lorem-ipsum.js')
@@ -56,16 +56,16 @@ output = loremIpsum({
 
 ### Using the CLI (Node.js)
 
-lorem-ipsum.js includes a command line interface for generating passages of lorem ipsum text. Install the module globally to take advantage of this feature.
+lorem-ipsum-react-native.js includes a command line interface for generating passages of lorem ipsum text. Install the module globally to take advantage of this feature.
 
 ```bash
-npm install lorem-ipsum --global
+npm install lorem-ipsum-react-native --global
 ```
 
-Execute the statement `lorem-ipsum` from your terminal to generate a passage of lorem ipsum text. You can pass arguments to the program to fine-tune the output.
+Execute the statement `lorem-ipsum-react-native` from your terminal to generate a passage of lorem ipsum text. You can pass arguments to the program to fine-tune the output.
 
 ```bash
-lorem-ipsum --units words --count 100 --copy --format html
+lorem-ipsum-react-native --units words --count 100 --copy --format html
 ```
 
 See below for a description of the arguments to the program.
@@ -93,23 +93,23 @@ See below for a description of the arguments to the program.
   </tr>
 </table>
 
-You may now also use a short form when running lorem-ipsum.js from the command line. Here's some examples:
+You may now also use a short form when running lorem-ipsum-react-native.js from the command line. Here's some examples:
 
 ```
-lorem-ipsum 1 word
-```
-
-```
-lorem-ipsum 15 sentences --copy
+lorem-ipsum-react-native 1 word
 ```
 
 ```
-lorem-ipsum 5 paragraphs --copy --format html
+lorem-ipsum-react-native 15 sentences --copy
+```
+
+```
+lorem-ipsum-react-native 5 paragraphs --copy --format html
 ```
 
 ### Notes
 
-The copy feature requires that you have xclip installed if you are using lorem-ipsum.js on Linux. The feature will work out of the box on Mac and Windows systems.
+The copy feature requires that you have xclip installed if you are using lorem-ipsum-react-native.js on Linux. The feature will work out of the box on Mac and Windows systems.
 
 ### License
 

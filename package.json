@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/knicklabs/node-lorem-ipsum.git"
+    "url": "git://github.com/anativ/lorem-ipsum-react-native.git"
   },
   "keywords": [
     "lorem",
